@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import images from './../images';
+import Marquee from "react-fast-marquee";
 
 const ImgRowContainer = styled.div`
     
@@ -24,6 +25,7 @@ const Blok = styled.div`
     overflow: hidden;
     align-items: center;
     background-color: ${props => props.bgColor || 'white'};
+    position: relative;
 
 
     /* width:  */
@@ -51,6 +53,9 @@ const ImgRow = () => {
         </Blok>
         <Blok width={'30%'}>
             <img src={images[1]} alt="cool man"/>
+            <Marquee className="mq" gradient={false} speed={30} style={{marginTop: '50%'}}>
+                The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp; The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp;
+            </Marquee>
         </Blok>
         <Blok width={'30%'}>
             <img src={images[0]} alt="bloks"/>

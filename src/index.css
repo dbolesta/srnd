@@ -17,6 +17,16 @@
   font-weight: 600;
 }
 
+.mq {
+  z-index: 999;
+  position: absolute !important;
+  background-color: white;
+}
+.mq div {
+  padding: 0.45rem 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
 
 body {
   margin: 0;
