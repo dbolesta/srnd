@@ -4,10 +4,12 @@ import images from './../images';
 const ShowContainer = styled.div`
     overflow: hidden;
     max-height: 40rem;
+    height: 100%;
 
     img {
         min-width: 100%;
         min-height: 100%;
+        height: 100%;
         object-fit: cover;
         width: 100%;
     }

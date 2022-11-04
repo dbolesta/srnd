@@ -53,3 +53,8 @@ code {
   /* overflow: hidden; */
   position: relative;
 }
+
+/* so show is vertically centered... */
+html, body, #root, .App {
+  height: 100%;
+}
