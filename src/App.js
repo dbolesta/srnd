@@ -43,7 +43,10 @@ function App() {
   return (
     <div className="App">
       {/* <ParallaxProvider> */}
-      <Menu/>
+      {menuOpen 
+        && 
+        <Menu handleClick={() => setMenuOpen(!menuOpen)} menuOpen={menuOpen}/>
+      }
       <Header handleClick={() => setMenuOpen(!menuOpen)} menuOpen={menuOpen}/>
       <ImgRow/>
       <Show/>

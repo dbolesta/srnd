@@ -67,13 +67,13 @@ const Letter = styled.div`
 
 `;
 
-const Menu = () => {
+const Menu = ({handleClick}) => {
   return (
     <MenuContainer>
-        <Letter top={'0px'} left={'10px'}><span>S</span><span>X</span></Letter>
-        <Letter top={'0px'} right={'10px'}><span>R</span><span>X</span></Letter>
-        <Letter bottom={'0px'} left={'10px'}><span>N</span><span>X</span></Letter>
-        <Letter bottom={'0px'} right={'10px'}><span>D</span><span>X</span></Letter>
+        <Letter top={'0px'} left={'10px'} onClick={handleClick}><span>S</span><span>X</span></Letter>
+        <Letter top={'0px'} right={'10px'} onClick={handleClick}><span>R</span><span>X</span></Letter>
+        <Letter bottom={'0px'} left={'10px'} onClick={handleClick}><span>N</span><span>X</span></Letter>
+        <Letter bottom={'0px'} right={'10px'} onClick={handleClick}><span>D</span><span>X</span></Letter>
 
         <MenuList>
             <span>About</span>
