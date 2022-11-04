@@ -14,6 +14,7 @@ import GridSection from './components/GridSection';
 import BrianAndBrad from './components/BrianAndBrad';
 import Footer from './components/Footer';
 import SRND from './components/SRND';
+import Menu from './components/Menu';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
   return (
     <div className="App">
       {/* <ParallaxProvider> */}
+      <Menu/>
       <Header handleClick={() => setMenuOpen(!menuOpen)} menuOpen={menuOpen}/>
       <ImgRow/>
       <Show/>

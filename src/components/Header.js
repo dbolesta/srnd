@@ -32,7 +32,7 @@ const Blurb = styled.div`
     }
 `;
 
-const Menu = styled.div`
+const MenuBtn = styled.div`
     position: absolute;
     top: 20px;
     right: 20px;
@@ -43,7 +43,7 @@ const Header = ({handleClick}) => {
   return (
     <HeaderContainer >
 
-        <Menu onClick={handleClick}><span>Menu</span></Menu>
+        <MenuBtn onClick={handleClick}><span>Menu</span></MenuBtn>
 
         <h1>SRND</h1>
 
