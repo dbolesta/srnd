@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/srnd/static/css/main.19d3ae70.css",
+    "main.js": "/srnd/static/js/main.15a7eea0.js",
+    "static/js/787.ba468860.chunk.js": "/srnd/static/js/787.ba468860.chunk.js",
+    "static/media/show.png": "/srnd/static/media/show.f1786ca42c3713fcf3b9.png",
+    "static/media/book.png": "/srnd/static/media/book.df95dd899435cf06dd64.png",
+    "static/media/ticketron.png": "/srnd/static/media/ticketron.d8057dcadbd8995cb25b.png",
+    "static/media/sp.jpg": "/srnd/static/media/sp.c5e964e286a7dd57a770.jpg",
+    "static/media/man-f.jpg": "/srnd/static/media/man-f.e559dd426db7a0bcacd9.jpg",
+    "static/media/man-b.jpg": "/srnd/static/media/man-b.e951c749e07bf2982164.jpg",
+    "static/media/color-blocks.jpg": "/srnd/static/media/color-blocks.f004d0d6b3aaeddf5c94.jpg",
+    "static/media/Aeonik-Bold.otf": "/srnd/static/media/Aeonik-Bold.bb271c04181fa945fbbe.otf",
+    "static/media/Aeonik-Light.otf": "/srnd/static/media/Aeonik-Light.009c9821ae675a01f868.otf",
+    "static/media/Aeonik-Regular.otf": "/srnd/static/media/Aeonik-Regular.f252af9282d8460f6582.otf",
+    "index.html": "/srnd/index.html",
+    "main.19d3ae70.css.map": "/srnd/static/css/main.19d3ae70.css.map",
+    "main.15a7eea0.js.map": "/srnd/static/js/main.15a7eea0.js.map",
+    "787.ba468860.chunk.js.map": "/srnd/static/js/787.ba468860.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19d3ae70.css",
+    "static/js/main.15a7eea0.js"
+  ]
+}
