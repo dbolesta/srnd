@@ -25,6 +25,7 @@ const Blurb = styled.div`
     p { 
         margin: 0;
         margin-bottom: 0.25rem; 
+        font-size: 1.2rem;
     }
 
     &:last-of-type {

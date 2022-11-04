@@ -39,6 +39,7 @@ const Blok = styled.div`
     p {
         text-transform: uppercase;
         margin-left: 5%;
+        font-size: 1.2rem;
     }
 
 `;

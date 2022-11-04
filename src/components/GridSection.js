@@ -74,7 +74,7 @@ const GridSection = () => {
             <GridBox basis={'58%'}>
                 <img src={images[6]} alt="cool man"/>
                 <Marquee className="mq" gradient={false} speed={2} direction={'right'} style={{transform: 'rotate(-90deg)', marginTop: '25%', marginLeft: '-20%'}}>
-                    The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp; The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp;
+                    The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp; The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp; The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp;
                 </Marquee>
             </GridBox>
         </GridRow>
