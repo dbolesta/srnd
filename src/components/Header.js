@@ -4,6 +4,7 @@ const HeaderContainer = styled.div`
     background-color: #489ADA;
     color: black;
     padding: 1rem;
+    position: relative;
 
     h1 {
         margin: 0;
@@ -31,9 +32,19 @@ const Blurb = styled.div`
     }
 `;
 
-const Header = () => {
+const Menu = styled.div`
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+`;
+
+const Header = ({handleClick}) => {
   return (
     <HeaderContainer >
+
+        <Menu onClick={handleClick}><span>Menu</span></Menu>
+
         <h1>SRND</h1>
 
         <Blurb>

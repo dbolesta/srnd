@@ -19,6 +19,8 @@ import SRND from './components/SRND';
 function App() {
   // const [scroll, setScroll] = useState(0);
 
+  const [menuOpen, setMenuOpen] = useState(false);
+
   // const ref = useRef();
   // Call the hook passing in ref and root margin
   // In this case it would only be considered onScreen if more ...
@@ -36,10 +38,11 @@ function App() {
 
 
 
+
   return (
     <div className="App">
       {/* <ParallaxProvider> */}
-      <Header/>
+      <Header handleClick={() => setMenuOpen(!menuOpen)} menuOpen={menuOpen}/>
       <ImgRow/>
       <Show/>
       <GridSection/>
