@@ -36,7 +36,13 @@ function App() {
   //     }
   //   })
   // });
-
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'visible'
+    }
+  }, [menuOpen])
 
 
 
