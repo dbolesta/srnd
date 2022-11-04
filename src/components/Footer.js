@@ -37,7 +37,7 @@ const Footer = () => {
     <FooterContainer >
         <Blurb>
             <p>You have reached the end.</p>
-            <p>We hope your visit was thilling.</p>
+            <p>We hope your visit was thrilling.</p>
             <p>Remeber.</p>
             <p>Every experience leads to something new and exciting.</p>
         </Blurb>

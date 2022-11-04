@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 import images from './../images';
+import Marquee from "react-fast-marquee";
 
 const GridSectionContainer = styled.div`
 
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 
     @media (max-width: 740px) {
         /* font-size: 1rem; */
@@ -24,6 +25,7 @@ const GridBox = styled.div`
     flex-direction: column;
     background-color: ${props => props.bgColor || 'white'};
     padding: ${props => props.padding || '0'};
+    position: relative;
     
 
     img {
@@ -71,6 +73,9 @@ const GridSection = () => {
             </GridBox>
             <GridBox basis={'58%'}>
                 <img src={images[6]} alt="cool man"/>
+                <Marquee className="mq" gradient={false} speed={2} direction={'right'} style={{transform: 'rotate(-90deg)', marginTop: '25%', marginLeft: '-20%'}}>
+                    The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp; The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp;
+                </Marquee>
             </GridBox>
         </GridRow>
         
