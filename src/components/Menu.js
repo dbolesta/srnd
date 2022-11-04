@@ -21,7 +21,7 @@ const MenuList = styled.div`
     flex-direction: column;
 
     span {
-        font-size: 6rem;
+        font-size: 15vh;
         text-transform: uppercase;
         font-weight: bold;
         cursor: pointer;
@@ -34,9 +34,47 @@ const MenuList = styled.div`
     }
 `;
 
+const Letter = styled.div`
+    font-size: 15vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    color: #489ADA;
+    position: absolute;
+
+
+
+    top: ${props => props.top || 'auto'};
+    left: ${props => props.left || 'auto'};
+    right: ${props => props.right || 'auto'};
+    bottom: ${props => props.bottom || 'auto'};
+
+
+    span:last-of-type {
+        display: none;
+        color: #da4949;
+    }
+
+    &:hover{
+        span:first-of-type {
+            display:none;
+        }
+        span:last-of-type {
+            display:inline-block;
+        }
+    }
+
+
+`;
+
 const Menu = () => {
   return (
     <MenuContainer>
+        <Letter top={'0px'} left={'10px'}><span>S</span><span>X</span></Letter>
+        <Letter top={'0px'} right={'10px'}><span>R</span><span>X</span></Letter>
+        <Letter bottom={'0px'} left={'10px'}><span>N</span><span>X</span></Letter>
+        <Letter bottom={'0px'} right={'10px'}><span>D</span><span>X</span></Letter>
+
         <MenuList>
             <span>About</span>
             <span>Projects</span>
