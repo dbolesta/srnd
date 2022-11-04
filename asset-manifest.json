@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/srnd/static/css/main.0b624f5f.css",
-    "main.js": "/srnd/static/js/main.b9b2be05.js",
+    "main.css": "/srnd/static/css/main.6b3aa8f8.css",
+    "main.js": "/srnd/static/js/main.1748f62c.js",
     "static/js/787.ba468860.chunk.js": "/srnd/static/js/787.ba468860.chunk.js",
     "static/media/show.png": "/srnd/static/media/show.f1786ca42c3713fcf3b9.png",
     "static/media/book.png": "/srnd/static/media/book.df95dd899435cf06dd64.png",
@@ -14,12 +14,12 @@
     "static/media/Aeonik-Light.otf": "/srnd/static/media/Aeonik-Light.009c9821ae675a01f868.otf",
     "static/media/Aeonik-Regular.otf": "/srnd/static/media/Aeonik-Regular.f252af9282d8460f6582.otf",
     "index.html": "/srnd/index.html",
-    "main.0b624f5f.css.map": "/srnd/static/css/main.0b624f5f.css.map",
-    "main.b9b2be05.js.map": "/srnd/static/js/main.b9b2be05.js.map",
+    "main.6b3aa8f8.css.map": "/srnd/static/css/main.6b3aa8f8.css.map",
+    "main.1748f62c.js.map": "/srnd/static/js/main.1748f62c.js.map",
     "787.ba468860.chunk.js.map": "/srnd/static/js/787.ba468860.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b624f5f.css",
-    "static/js/main.b9b2be05.js"
+    "static/css/main.6b3aa8f8.css",
+    "static/js/main.1748f62c.js"
   ]
 }
