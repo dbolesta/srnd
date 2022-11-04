@@ -15,6 +15,7 @@ const ImgRowContainer = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    position: relative;
 `;
 
 const Blok = styled.div`
@@ -44,11 +45,29 @@ const Blok = styled.div`
 
 `;
 
+const SR = styled.div`
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 20%;
+
+    span {
+        color: #489ADA;
+        padding: 1rem;
+        font-weight: 700;
+        font-size: 8rem;
+    }
+
+`;
 
 const ImgRow = () => {
   return (
     <ImgRowContainer>
+        
+
         <Blok width={'30%'} bgColor={'#FDF5F5'}>
             <p>please</p>
         </Blok>
@@ -62,6 +81,8 @@ const ImgRow = () => {
             <img src={images[0]} alt="bloks"/>
         </Blok>
         <Blok width={'10%'} bgColor={'#C3B39C'}></Blok>
+
+        <SR><span>S</span><span>R</span></SR>
     </ImgRowContainer>
   )
 }

@@ -5,6 +5,7 @@ const ShowContainer = styled.div`
     overflow: hidden;
     max-height: 40rem;
     height: 100%;
+    position: relative;
 
     img {
         min-width: 100%;
@@ -19,13 +20,31 @@ const ShowContainer = styled.div`
     }
 `;
 
+const ND = styled.div`
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 20%;
+
+    span {
+        color: #489ADA;
+        padding: 1rem;
+        font-weight: 700;
+        font-size: 8rem;
+    }
+
+`;
+
 
 const Show = () => {
   return (
     <ShowContainer>
 
         <img src={images[3]} alt="show"/>
-
+        <ND><span>N</span><span>D</span></ND>
     </ShowContainer>
   )
 }

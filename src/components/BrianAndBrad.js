@@ -14,6 +14,7 @@ const ImgRowContainer = styled.div`
     /* align-items: center; */
     /* justify-content: center; */
     flex-direction: row;
+    position: relative;
 `;
 
 const Blok = styled.div`
@@ -47,7 +48,24 @@ const Blok = styled.div`
 `;
 
 
+const SRND = styled.div`
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 8%;
+    z-index: 10;
+
+    span {
+        color: #489ADA;
+        padding: 1rem;
+        font-weight: 700;
+        font-size: 8rem;
+    }
+
+`;
 
 const BrianAndBrad = () => {
   return (
@@ -62,6 +80,7 @@ const BrianAndBrad = () => {
             <p>and Brad Palmer</p>
             <img src={images[2]} alt="bloks"/>
         </Blok>
+        <SRND><span>S</span><span>R</span><span>N</span><span>D</span></SRND>
     </ImgRowContainer>
   )
 }

@@ -16,6 +16,7 @@ const GridRow = styled.div`
     /* align-items: center; */
     /* justify-content: center; */
     flex-direction: row;
+    position: relative;
 `;
 
 const GridBox = styled.div`
@@ -45,6 +46,85 @@ const GridBox = styled.div`
     }
 `;
 
+
+const SRNDone = styled.div`
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: -20%;
+    z-index: 10;
+
+    span {
+        color: #489ADA;
+        padding: 1rem;
+        font-weight: 700;
+        font-size: 8rem;
+    }
+
+`;
+
+const SRNDtwo = styled.div`
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    z-index: 10;
+
+    span {
+        color: #489ADA;
+        padding: 1rem;
+        font-weight: 700;
+        font-size: 8rem;
+    }
+
+`;
+
+const SR = styled.div`
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+
+    span {
+        color: #489ADA;
+        padding: 1rem;
+        font-weight: 700;
+        font-size: 8rem;
+    }
+
+`;
+
+const ND = styled.div`
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: -40%;
+    z-index: 10;
+
+    span {
+        color: #489ADA;
+        padding: 1rem;
+        font-weight: 700;
+        font-size: 8rem;
+    }
+
+`;
+
 const GridSection = () => {
   return (
     <GridSectionContainer>
@@ -57,6 +137,7 @@ const GridSection = () => {
             <GridBox basis={'58%'} objFit={'cover'}>
                 <img src={images[4]} alt="cool man"/>
             </GridBox>
+            <SRNDone><span>S</span><span>R</span><span>N</span><span>D</span></SRNDone>
         </GridRow>
 
         <GridRow>
@@ -64,8 +145,9 @@ const GridSection = () => {
                 <img src={images[5]} alt="cool man"/>
             </GridBox>
             <GridBox basis={'56.75%'}>
-                <span style={{minHeight: '40rem'}}></span>
+                <span style={{minHeight: '50rem'}}></span>
             </GridBox>
+            <SRNDtwo><span>S</span><span>R</span><span>N</span><span>D</span></SRNDtwo>
         </GridRow>
 
         <GridRow>
@@ -77,6 +159,8 @@ const GridSection = () => {
                     The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp; The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp; The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp;
                 </Marquee>
             </GridBox>
+            <SR><span>S</span><span>R</span></SR>
+            <ND><span>N</span><span>D</span></ND>
         </GridRow>
         
     </GridSectionContainer>
