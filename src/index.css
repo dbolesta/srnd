@@ -58,3 +58,26 @@ code {
 html, body, #root, .App {
   height: 100%;
 }
+
+
+/* custom modal styling */
+.ReactModal__Overlay {
+  /* transform:translateY(-100px); */
+  transition: transform 500ms ease-in-out;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.85);
+  /* position: relative; */
+}
+
+.ReactModal__Overlay--after-open{
+  /* transform:translateY(0px); */
+}
+
+.ReactModal__Overlay--before-close{
+  /* transform:translateY(-10px); */
+}
+
+.ReactModal__Content {
+  background: none !important;
+  border: none !important;
+}

@@ -43,6 +43,13 @@ const Blok = styled.div`
         font-size: 1.2rem;
     }
 
+    span {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        cursor: pointer;
+    }
+
 `;
 
 const SR = styled.div`
@@ -63,7 +70,7 @@ const SR = styled.div`
 
 `;
 
-const ImgRow = () => {
+const ImgRow = ({handleOpenModal}) => {
   return (
     <ImgRowContainer>
         
@@ -72,6 +79,7 @@ const ImgRow = () => {
             <p>please</p>
         </Blok>
         <Blok width={'30%'}>
+            <span onClick={handleOpenModal}>Click here</span>
             <img src={images[1]} alt="cool man"/>
             <Marquee className="mq" gradient={false} speed={30} style={{marginTop: '50%'}}>
                 The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp; The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp;
