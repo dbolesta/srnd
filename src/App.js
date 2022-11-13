@@ -161,6 +161,7 @@ function App() {
         onRequestClose={closeModal}
         // style={customStyles}
         contentLabel="Example Modal"
+        closeTimeoutMS={200}
       >
         {/* <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2> */}
         {/* <button onClick={closeModal}>close</button> */}
