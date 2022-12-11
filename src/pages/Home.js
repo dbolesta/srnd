@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import Header from '../components/Header';
 import Header2 from '../components/Header2';
-import images from '../images';
+import assets from '../assets';
 import Modal from 'react-modal';
 
 import useOnScreen from '../hooks/useOnScreen';
@@ -167,7 +167,7 @@ const Home = () => {
                 <span>View More here</span>
               </ModalInnerLeft>
               <ModalInnerRight>
-                <img src={images.sp} alt="cool man"/>
+                <img src={assets.images.sp} alt="cool man"/>
               </ModalInnerRight>
   
           </ModalInnerStyled>

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import images from './../images';
+import assets from '../assets';
 
 const ImgRowContainer = styled.div`
     
@@ -74,11 +74,11 @@ const BrianAndBrad = () => {
             <p>This is me Brian Palmer</p>
         </Blok>
         <Blok width={'45%'}>
-            <img src={images.manF} alt="cool man"/>
+            <img src={assets.images.manF} alt="cool man"/>
         </Blok>
         <Blok width={'45%'}>
             <p>and Brad Palmer</p>
-            <img src={images.manB} alt="bloks"/>
+            <img src={assets.images.manB} alt="bloks"/>
         </Blok>
         <SRND><span>S</span><span>R</span><span>N</span><span>D</span></SRND>
     </ImgRowContainer>

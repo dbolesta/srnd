@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import images from './../images';
+import assets from '../assets';
 
 const ShowContainer = styled.div`
     overflow: hidden;
@@ -43,7 +43,7 @@ const Show = () => {
   return (
     <ShowContainer>
 
-        <img src={images.show} alt="show"/>
+        <img src={assets.images.show} alt="show"/>
         <ND><span>N</span><span>D</span></ND>
     </ShowContainer>
   )

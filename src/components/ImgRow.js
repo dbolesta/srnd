@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import images from './../images';
+import assets from '../assets';
 import Marquee from "react-fast-marquee";
 
 const ImgRowContainer = styled.div`
@@ -80,13 +80,13 @@ const ImgRow = ({handleOpenModal}) => {
         </Blok>
         <Blok width={'30%'}>
             <span onClick={handleOpenModal}>Click here</span>
-            <img src={images.manF} alt="cool man"/>
+            <img src={assets.images.manF} alt="cool man"/>
             <Marquee className="mq" gradient={false} speed={30} style={{marginTop: '50%'}}>
                 The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp; The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp;
             </Marquee>
         </Blok>
         <Blok width={'30%'}>
-            <img src={images.colorBlocks} alt="bloks"/>
+            <img src={assets.images.colorBlocks} alt="bloks"/>
         </Blok>
         <Blok width={'10%'} bgColor={'#C3B39C'}></Blok>
 
