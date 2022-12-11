@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import Header from '../components/Header';
+import Header2 from '../components/Header2';
 import images from '../images';
 import Modal from 'react-modal';
 
@@ -142,7 +143,8 @@ const Home = () => {
           && 
           <Menu handleClick={() => setMenuOpen(!menuOpen)} menuOpen={menuOpen}/>
         }
-        <Header handleClick={() => setMenuOpen(!menuOpen)} menuOpen={menuOpen}/>
+        {/* <Header handleClick={() => setMenuOpen(!menuOpen)} menuOpen={menuOpen}/> */}
+        <Header2 handleClick={() => setMenuOpen(!menuOpen)} menuOpen={menuOpen}/>
         <ImgRow handleOpenModal={openModal} />
         <Show/>
         <GridSection/>
@@ -152,15 +154,10 @@ const Home = () => {
   
         <Modal
           isOpen={modalIsOpen}
-          // onAfterOpen={afterOpenModal}
           onRequestClose={closeModal}
-          // style={customStyles}
           contentLabel="Example Modal"
           closeTimeoutMS={200}
         >
-          {/* <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2> */}
-          {/* <button onClick={closeModal}>close</button> */}
-          
           <ModalInnerStyled>
               <button onClick={closeModal}>close</button>
               <ModalInnerLeft>
@@ -170,13 +167,12 @@ const Home = () => {
                 <span>View More here</span>
               </ModalInnerLeft>
               <ModalInnerRight>
-                <img src={images[1]} alt="cool man"/>
+                <img src={images.sp} alt="cool man"/>
               </ModalInnerRight>
   
           </ModalInnerStyled>
-  
-  
         </Modal>
+
       </div>
     );
 }

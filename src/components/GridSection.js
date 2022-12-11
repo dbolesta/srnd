@@ -135,14 +135,14 @@ const GridSection = () => {
                 <p>gets.</p>
             </GridBox>
             <GridBox basis={'58%'} objFit={'cover'}>
-                <img src={images[4]} alt="cool man"/>
+                <img src={images.book} alt="cool man"/>
             </GridBox>
             <SRNDone><span>S</span><span>R</span><span>N</span><span>D</span></SRNDone>
         </GridRow>
 
         <GridRow>
             <GridBox basis={'42.25%'} objFit={'contain'}  bgColor={'black'}>
-                <img src={images[5]} alt="cool man"/>
+                <img src={images.ticketron} alt="cool man"/>
             </GridBox>
             <GridBox basis={'56.75%'}>
                 <span style={{minHeight: '50rem'}}></span>
@@ -154,7 +154,7 @@ const GridSection = () => {
             <GridBox basis={'42%'}>
             </GridBox>
             <GridBox basis={'58%'}>
-                <img src={images[6]} alt="cool man"/>
+                <img src={images.sp} alt="cool man"/>
                 <Marquee className="mq" gradient={false} speed={2} direction={'right'} style={{transform: 'rotate(-90deg)', marginTop: '25%', marginLeft: '-20%'}}>
                     The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp; The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp; The Smashing Pumpkins Music Video &nbsp; &nbsp; &nbsp; &nbsp;
                 </Marquee>

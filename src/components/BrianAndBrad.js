@@ -74,11 +74,11 @@ const BrianAndBrad = () => {
             <p>This is me Brian Palmer</p>
         </Blok>
         <Blok width={'45%'}>
-            <img src={images[1]} alt="cool man"/>
+            <img src={images.manF} alt="cool man"/>
         </Blok>
         <Blok width={'45%'}>
             <p>and Brad Palmer</p>
-            <img src={images[2]} alt="bloks"/>
+            <img src={images.manB} alt="bloks"/>
         </Blok>
         <SRND><span>S</span><span>R</span><span>N</span><span>D</span></SRND>
     </ImgRowContainer>

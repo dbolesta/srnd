@@ -16,4 +16,14 @@ const images = [
     ProjectImg7
 ];
 
-export default images;
+const imagesObj = {
+    colorBlocks: ProjectImg1,
+    manF: ProjectImg2,
+    manB: ProjectImg3,
+    show: ProjectImg4,
+    book: ProjectImg5,
+    ticketron: ProjectImg6,
+    sp: ProjectImg7
+};
+
+export default imagesObj;

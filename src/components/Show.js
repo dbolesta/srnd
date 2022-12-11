@@ -43,7 +43,7 @@ const Show = () => {
   return (
     <ShowContainer>
 
-        <img src={images[3]} alt="show"/>
+        <img src={images.show} alt="show"/>
         <ND><span>N</span><span>D</span></ND>
     </ShowContainer>
   )
