@@ -1,12 +1,20 @@
 {
   "files": {
-    "main.css": "/srnd/static/css/main.6b3aa8f8.css",
-    "main.js": "/srnd/static/js/main.1748f62c.js",
+    "main.css": "/srnd/static/css/main.5fdf5a62.css",
+    "main.js": "/srnd/static/js/main.f29e97a8.js",
     "static/js/787.ba468860.chunk.js": "/srnd/static/js/787.ba468860.chunk.js",
+    "static/media/aic.mp4": "/srnd/static/media/aic.d036841fbdb3a868342c.mp4",
+    "static/media/sequence3.jpg": "/srnd/static/media/sequence3.5df57cfb3532ce5462ce.jpg",
+    "static/media/future-past.jpg": "/srnd/static/media/future-past.43b56f9dff29f96dcd86.jpg",
     "static/media/show.png": "/srnd/static/media/show.f1786ca42c3713fcf3b9.png",
     "static/media/book.png": "/srnd/static/media/book.df95dd899435cf06dd64.png",
+    "static/media/rihanna.jpg": "/srnd/static/media/rihanna.5180de3a635c16e755b1.jpg",
+    "static/media/spmv.jpg": "/srnd/static/media/spmv.8eab6fc7e166f98458ab.jpg",
+    "static/media/ticketron.jpg": "/srnd/static/media/ticketron.b0cf5be5f637ed7e86c6.jpg",
     "static/media/ticketron.png": "/srnd/static/media/ticketron.d8057dcadbd8995cb25b.png",
     "static/media/sp.jpg": "/srnd/static/media/sp.c5e964e286a7dd57a770.jpg",
+    "static/media/sequence1.jpg": "/srnd/static/media/sequence1.dce99a819dfcab9ea1f2.jpg",
+    "static/media/sequence2.jpg": "/srnd/static/media/sequence2.3882bc412e484edcbdda.jpg",
     "static/media/man-f.jpg": "/srnd/static/media/man-f.e559dd426db7a0bcacd9.jpg",
     "static/media/man-b.jpg": "/srnd/static/media/man-b.e951c749e07bf2982164.jpg",
     "static/media/color-blocks.jpg": "/srnd/static/media/color-blocks.f004d0d6b3aaeddf5c94.jpg",
@@ -14,12 +22,12 @@
     "static/media/Aeonik-Light.otf": "/srnd/static/media/Aeonik-Light.009c9821ae675a01f868.otf",
     "static/media/Aeonik-Regular.otf": "/srnd/static/media/Aeonik-Regular.f252af9282d8460f6582.otf",
     "index.html": "/srnd/index.html",
-    "main.6b3aa8f8.css.map": "/srnd/static/css/main.6b3aa8f8.css.map",
-    "main.1748f62c.js.map": "/srnd/static/js/main.1748f62c.js.map",
+    "main.5fdf5a62.css.map": "/srnd/static/css/main.5fdf5a62.css.map",
+    "main.f29e97a8.js.map": "/srnd/static/js/main.f29e97a8.js.map",
     "787.ba468860.chunk.js.map": "/srnd/static/js/787.ba468860.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b3aa8f8.css",
-    "static/js/main.1748f62c.js"
+    "static/css/main.5fdf5a62.css",
+    "static/js/main.f29e97a8.js"
   ]
 }
