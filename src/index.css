@@ -22,10 +22,21 @@
   position: absolute !important;
   background-color: white;
 }
-.mq div {
+.mq div, .mq2 div {
   padding: 0.45rem 0;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.mq2 {
+  z-index: 999;
+  position: absolute !important;
+  background-color: white;
+  width: 46% !important;
+  margin: auto;
+  text-align: center;
+  margin-left: 28%;
+  font-size: 14vw;
 }
 
 body {

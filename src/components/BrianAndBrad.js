@@ -15,6 +15,7 @@ const ImgRowContainer = styled.div`
     /* justify-content: center; */
     flex-direction: row;
     position: relative;
+    background-color: #FFE9E9;
 `;
 
 const Blok = styled.div`
@@ -24,7 +25,8 @@ const Blok = styled.div`
     overflow: ${props => props.overflow || 'hidden'};
     align-items: center;
     position: relative;
-    background-color: ${props => props.bgColor || 'white'};
+    background-color: #FFE9E9;
+    /* background-color: ${props => props.bgColor || '#FFE9E9'}; */
 
 
     /* width:  */
@@ -71,16 +73,16 @@ const BrianAndBrad = () => {
   return (
     <ImgRowContainer>
         <Blok width={'10%'} bgColor={'white'} overflow={'visible'}>
-            <p>This is me Brian Palmer</p>
+            {/* <p>This is me Brian Palmer</p> */}
         </Blok>
         <Blok width={'45%'}>
             <img src={assets.images.manF} alt="cool man"/>
         </Blok>
         <Blok width={'45%'}>
-            <p>and Brad Palmer</p>
+            {/* <p>and Brad Palmer</p> */}
             <img src={assets.images.manB} alt="bloks"/>
         </Blok>
-        <SRND><span>S</span><span>R</span><span>N</span><span>D</span></SRND>
+        {/* <SRND><span>S</span><span>R</span><span>N</span><span>D</span></SRND> */}
     </ImgRowContainer>
   )
 }

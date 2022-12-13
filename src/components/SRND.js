@@ -7,9 +7,10 @@ const SRNDContainer = styled.div`
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    background-color: #FFE9E9;
 
     span {
-        color: #489ADA;
+        color: #f6ea72;
         padding: 0.25rem;
         font-weight: 700;
         font-size: 8rem;

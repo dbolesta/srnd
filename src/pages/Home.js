@@ -1,6 +1,13 @@
 import { useState, useEffect, useRef } from "react";
 import Header from '../components/Header';
 import Header2 from '../components/Header2';
+import AliceInChains from '../components/AliceInChains';
+import Rihanna from '../components/Rihanna';
+import TheFuturePast from '../components/TheFuturePast';
+import Ticketron from '../components/Ticketron';
+import SmashingPumpkins from '../components/SmashingPumpkins';
+import Sequence from '../components/Sequence';
+import Archive from '../components/Archive';
 import assets from '../assets';
 import Modal from 'react-modal';
 
@@ -145,9 +152,16 @@ const Home = () => {
         }
         {/* <Header handleClick={() => setMenuOpen(!menuOpen)} menuOpen={menuOpen}/> */}
         <Header2 handleClick={() => setMenuOpen(!menuOpen)} menuOpen={menuOpen}/>
-        <ImgRow handleOpenModal={openModal} />
-        <Show/>
-        <GridSection/>
+        <AliceInChains/>
+        <Rihanna />
+        <TheFuturePast />
+        <Sequence />
+        <Ticketron />
+        <SmashingPumpkins />
+        <Archive/>
+        {/* <ImgRow handleOpenModal={openModal} /> */}
+        {/* <Show/> */}
+        {/* <GridSection/> */}
         <BrianAndBrad/>
         <Footer/>
         <SRND/>
